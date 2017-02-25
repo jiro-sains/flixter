@@ -1,1 +1,67 @@
 @import "bootstrap";
+
+@import url(https://fonts.googleapis.com/css?family=Baloo);
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.navbar{
+  color: #613ffc;
+  font-family: 'Baloo', cursive;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  font-size: 20px;
+  font-weight: 10;
+  background: image_url('footer_lodyas');
+
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Baloo', cursive;
+  font-weight: 200;
+  color: #613ffc;
+  font-size: 35px;
+}
+
+.hero{
+  background: image_url('pumpkins.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  box-shadow: 0px 3px 8px #2a2a2a
+}
+
+.frosty {
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  background: image_url('light_grey.png');
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
+}
